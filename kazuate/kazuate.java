@@ -34,6 +34,7 @@ public class kazuate {
 
         if (attempts == 5) {
             System.out.println("5回の入力試行で外れました。");
+            System.out.println("正解は " + targetNumber + " です。");
         }
 
         scanner.close();
